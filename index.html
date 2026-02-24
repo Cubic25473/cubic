@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cubic International - FTC Robotics Team 25473</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="particles-canvas"></canvas>
+    <div class="grid-overlay"></div>
+
+    <nav>
+        <a href="#" class="logo">
+            <img src="logo.png" alt="Cubic International Logo" class="logo-image">
+        </a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#robot">Robot</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="mobile-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-team-logo"><img src="logo-big.png" alt="Cubic International Logo" class="logo-image" width="500" height="500"></div>
+            <div class="hero-team-number">25473</div>
+            <div class="hero-tagline">
+                <span>We are creators!</span>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="arrow"></div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="section-title reveal">About Us</h2>
+        <div class="about-content">
+            <div class="about-text reveal">
+                <p>
+                    <span class="highlight">Cubic #25473</span> is an FTC robotics team dedicated to
+                    inspiring innovation and excellence in robotics engineering. Based in the Moldova, we bring together young minds passionate about <span class="highlight">science,
+                    technology, engineering, and mathematics</span>.
+                </p>
+                <p>
+                    Our team competes in the FIRST Tech Challenge, designing and building competitive robots 
+                    that tackle complex challenges. We believe in <span class="highlight">Gracious Professionalism®</span> 
+                    and cooperation while competing at the highest level.
+                </p>
+                <p>
+                    Through our journey, we've developed not just robots, but <span class="highlight">future leaders</span> 
+                    equipped with the skills to innovate and make a difference in the world.
+                </p>
+            </div>
+            <div class="about-stats reveal">
+                <div class="stat-card">
+                    <span class="stat-number" data-target="2">0</span>
+                    <span class="stat-label">Years Active</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number" data-target="67">0</span>
+                    <span class="stat-label">Awesome friendships</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number" data-target="10000">0</span>
+                    <span class="stat-label">Positive vibes</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="robot" class="robot">
+        <h2 class="section-title reveal">Our Robot</h2>
+        <div class="robot-content">
+            <div class="robot-image reveal">
+                <div class="robot-image-inner">
+                    <div class="robot-icon">🤖</div>
+                    <span>SEASON 2025-2026</span>
+                </div>
+            </div>
+            <div class="robot-specs reveal">
+                <div class="spec-card">
+                    <h4>Dimensions</h4>
+                    <p>37mmx37mmx37mm (Cube Configuration)</p>
+                </div>
+                <div class="spec-card">
+                    <h4>Drive System</h4>
+                    <p>4-Wheel Swerve Drive</p>
+                </div>
+                <div class="spec-card">
+                    <h4>Programming</h4>
+                    <p>Java / Android Studio / FTC SDK / Core Control Lib</p>
+                </div>
+                <div class="spec-card">
+                    <h4> Sensors</h4>
+                    <p>Color Sensors, Pinpoint, Encoders, Odometry Pods</p>
+                </div>
+                <div class="spec-card">
+                    <h4>Game Strategy</h4>
+                    <p>Autonomous + TeleOp Hybrid Design</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team">
+        <h2 class="section-title reveal">Meet Our Team</h2>
+        <div class="team-grid">
+            <div class="team-card reveal">
+                <img src="team/Eva.png" alt="Puscasu Evelina" class="team-avatar">
+                <h3 class="team-name">Puscasu Evelina</h3>
+                <span class="team-role">Team Captain / Public Relations</span>
+            </div>
+            <div class="team-card reveal">
+                <img src="team/Nicu.JPG" alt="Turcanu Nicu" class="team-avatar">
+                <h3 class="team-name">Turcanu Nicu</h3>
+                <span class="team-role">Mentor</span>
+            </div>
+            <div class="team-card reveal">
+                <img src="team/Vlad.jpg" alt="Corduneanu Vlad" class="team-avatar">
+                <h3 class="team-name">Corduneanu Vlad</h3>
+                <span class="team-role">Mentor</span>
+            </div>
+            <div class="team-card reveal">
+                <img src="team/Chiril.jpg" alt="Dimitriu Chiril" class="team-avatar">
+                <h3 class="team-name">Dimitriu Chiril</h3>
+                <span class="team-role">Lead Engineer</span>
+            </div>
+            <div class="team-card reveal">
+                <img src="team/Andrei.png" alt="Tutunaru Andrei" class="team-avatar">
+                <h3 class="team-name">Tutunaru Andrei</h3>
+                <span class="team-role">Lead Programmer</span>
+            </div>
+            <div class="team-card reveal">
+                <img src="team/Nicoleta.jpg" alt="Dimitriu Nicoleta" class="team-avatar">
+                <h3 class="team-name">Dimitriu Nicoleta</h3>
+                <span class="team-role">Social Media Manager</span>
+            </div>
+            <div class="team-card reveal">
+                <img src="team/Marius.png" alt="Berdianu Marius" class="team-avatar">
+                <h3 class="team-name">Berdianu Marius</h3>
+                <span class="team-role">Engineer</span>
+            </div>
+            <div class="team-card reveal">
+                <img src="team/Mihai.png" alt="Postulachi Mihai" class="team-avatar">
+                <h3 class="team-name">Postulachi Mihai</h3>
+                <span class="team-role">Engineer</span>
+            </div>
+            <div class="team-card reveal">
+                <img src="team/Timur.jpg" alt="Rusanovshi Timur" class="team-avatar">
+                <h3 class="team-name">Rusanovschi Timur</h3>
+                <span class="team-role">Engineer</span>
+            </div>
+            <div class="team-card reveal">
+                <img src="team/Sandu.jpg" alt="Cardauc Sandu" class="team-avatar">
+                <h3 class="team-name">Cardauc Sandu</h3>
+                <span class="team-role">Programmer</span>
+            </div>
+
+            <div class="team-card reveal">
+                <img src="team/Artur.jpg" alt="Grigoriev Artur" class="team-avatar">
+                <h3 class="team-name">Artur</h3>
+                <span class="team-role">Designer</span>
+            </div>
+            <div class="team-card reveal">
+                <img src="team/Razvan.jpg" alt="Jitari Razvan" class="team-avatar">
+                <h3 class="team-name">Jitar Razvan</h3>
+                <span class="team-role">3D Modelling</span>
+            </div>
+            <div class="team-card reveal">
+                <img src="team/Arseniu.jpg" alt="Joian Arseniu" class="team-avatar">
+                <h3 class="team-name">Joian Arseniu</h3>
+                <span class="team-role">Volunteer</span>
+            </div>
+            <div class="team-card reveal">
+                <img src="team/Bogdan.jpg" alt="Borcea Bogdan" class="team-avatar">
+                <h3 class="team-name">Borcea Bogdan</h3>
+                <span class="team-role">Volunteer</span>
+            </div>
+            <div class="team-card reveal">
+                <img src="team/Cristi.jpg" alt="Cerlat Cristi" class="team-avatar">
+                <h3 class="team-name">Cerlat Cristi</h3>
+                <span class="team-role">Volunteer</span>
+            </div>
+            <div class="team-card reveal">
+                <img src="team/Dan.jpg" alt="Goncearuc Dan" class="team-avatar">
+                <h3 class="team-name">Goncearuc Dan</h3>
+                <span class="team-role">Volunteer</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title reveal">Contact Us</h2>
+        <div class="contact-content">
+            <form class="contact-form reveal" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder=" " required>
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder=" " required>
+                    <label for="email">Email Address</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder=" " required></textarea>
+                    <label for="message">Your Message</label>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            <div class="contact-info reveal">
+                <h3>Get In Touch</h3>
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div class="contact-details">
+                        <span class="label">Location</span>
+                        <span class="value">Chisinau, Republic of Moldova</span>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <div class="contact-details">
+                        <span class="label">Email</span>
+                        <span class="value">cubic25473@gmail.com</span>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">🏆</div>
+                    <div class="contact-details">
+                        <span class="label">FTC Team</span>
+                        <span class="value">Team #25473</span>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/cubic.cutm/" class="social-link" title="Instagram">📸</a>
+                    <a href="https://www.tiktok.com/@cubic_cutm" class="social-link" title="TikTok">💬</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>2025-2026 Cubic #25473 - CUTM</p>
+        <p class="team-number">#25473</p>
+    </footer>
+
+    <script src="animations.js"></script>
+</body>
+</html>
