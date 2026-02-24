@@ -315,7 +315,7 @@ section {
     position: absolute;
     width: 300px;
     height: 300px;
-    border: 2px solid var(--accent-cyan);
+    border: 8px solid var(--accent-cyan);
     background: rgba(0, 212, 255, 0.15);
     display: flex;
     align-items: center;
