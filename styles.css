@@ -350,8 +350,8 @@ section {
 .section-title::after {
     content: '';
     position: absolute;
+    align-self: center;
     bottom: -10px;
-    left: 40%;
     transform: translateX(-50%);
     width: 100px;
     height: 3px;
